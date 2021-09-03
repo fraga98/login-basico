@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href=" ../Css/estilos.css">
+</head>
+<body>
+
+	 <!--Menu-->
+
+ <nav> 
+ 	    <ul>
+ 	      <li><a class="enlaceMenu" href="../index.html">INICIO</a></li>
+ 	    	
+ </nav>
+
+ <!--TITULO-->
+
+ <h1>FORMULARIO DE REGISTRO</h1>
+
+<!--Formulario-->
+
+<center>
+
+ <form method="GET" action="../Html/ingreso.html"> 
+
+ 	   <img src="../Img/usuario.png" width="70px">
+
+ 	       <br>
+
+ 	   <input class="formatoInput" type="text" name="Nombre_" placeholder="Ingrese su nombre" required=""> 
+       
+          <br><br>
+
+       <input class="formatoInput" type="text" name="Apellido_" placeholder="Ingrese su apellido" required=""> 
+          
+          <br><br>
+
+       <label for="sexo">SEXO</label>
+
+          <br><br>
+       
+       <input type="radio" name="sexo_" value="femenino">
+       <label for="contactChoice1">Femenino</label>
+       <input type="radio" name="sexo_" value="masculino">
+       <label for="contactChoice2">Masculino</label>
+       <input type="radio" name="sexo_" value="otros_">
+       <label for="contactChoice3">Otros</label>
+
+          <br><br>
+
+        <input class="formatoInput" type="email" name="email_" placeholder="Ingrese su email" required="">
+          
+          <br><br>
+
+        <input class="formatoInput" type="password" name="contra_" placeholder="Ingrese su contraseña" required=""> 
+
+          <br><br> 
+
+        <input class="formatoInput" type="password" name="contra2_" placeholder="Reingrese su contraseña" required=""> 
+          
+           <br><br> 
+
+        <input type="checkbox" value="checkbox1_" required=""> <label for="boxq">Deseo recibir información sobre novedades y ofertas</label>
+
+          <br><br> 
+
+        <input type="checkbox" value="checkbox2_" required=""> <label for="box2">Acepto terminos y condiciones</label>
+           
+           <br><br> 
+
+        <a href="../Html/recu.html">Olvide contraseña</a>
+
+          <br><br>
+
+       <input class="Boton" type="submit" name="envio_" value="Login"> 
+
+ </form>
+</center>
+
+
+
+
+
+</body>
+</html>

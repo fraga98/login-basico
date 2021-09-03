@@ -1,0 +1,109 @@
+ 	
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+
+   background-color: #f4f4f4;
+   font-family: Arial;
+}
+/*---------*/
+
+p{
+   margin: 20px ;
+}
+
+h1{
+
+   color: green;
+   background-color: #b3fab6;
+   text-align: center;
+   padding: 90px;
+}
+
+
+/*Menu*/
+
+
+nav{
+   
+   width: 100%;
+   background-color: skyblue;
+}
+
+ul{
+
+   padding: 20px;
+}
+
+li{
+    
+    display: inline-block;
+    list-style: none;
+}
+
+.enlaceMenu{
+   
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+   border-right: 1px solid ;
+
+   padding-right: 5px;
+   padding-left: 10px;
+
+}
+
+.enlaceMenu:hover{
+
+   color: grey;
+}
+
+
+/*Formu*/
+
+form{
+    
+    background-color: #eee4ee;
+    width: 300px;
+	 border: none;
+	 border-radius: 20px;
+	 
+	 padding: 30px 30px 20px 20px;
+	 margin-top: 20px;
+}
+
+.formatoInput{
+    
+   width: 250px;
+	height: 30px;
+	text-align: center;
+}
+
+img{
+
+	 margin-bottom: 10px;
+}
+
+.Boton{
+   
+   width: 250px;
+   height: 40px;
+	 background-color: black;
+	 color: white;
+	 margin-top: 10px;
+}
+
+.Boton:hover{
+
+	  background-color: grey;
+}
+
+a{
+
+	text-decoration: none;
+}
+
+
